@@ -9,9 +9,9 @@ use App\Http\Controllers\SubscriberController;
 use App\Http\Controllers\ThemeController;
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('theme.index');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
